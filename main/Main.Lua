@@ -122,7 +122,7 @@ local function PVKFGZ_fake_script() -- PlayButton.LocalScript
 	local script = Instance.new('LocalScript', PlayButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/broplayroblox/roblox/main/projectyassou"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6983/Project-WD/main/main/game"))()
 	end)
 end
 coroutine.wrap(PVKFGZ_fake_script)()
